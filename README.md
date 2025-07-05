@@ -3,6 +3,25 @@ Welcome to avatar², the target orchestration framework with focus on dynamic
 
 Avatar² is developed and maintained by [Eurecom's S3 Group](http://s3.eurecom.fr/).
 
+# Lock version
+buat versi lama ini bekerja lagi dengan memperbaiki dependacies
+tidak cocok.
+```
+$ virtualenv -p $(which python2) py2
+$ source py2/bin/activate
+$ pip2 install pip-tools
+$ pip-compile requirements.in
+```
+then result requirements.txt, we modifed in unicorn==1.0.2rc1
+with `pip2 install unicorn==1.0.2rc1` next:
+```
+$ pip2 install angr==7.7.9.8.post1
+$ pip2 install .
+```
+
+
+
+
 # Building
 
 Building avatar² is easy!
