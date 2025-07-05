@@ -18,10 +18,10 @@ setup(
               'avatar2/plugins/x86'
               ],
     install_requires=[
-        'pygdbmi>=0.7.3.1',
+        'pygdbmi==0.7.3.1',
         'intervaltree',
         'ipython==5.3',
-        'posix_ipc>=1.0.0',
+        'posix_ipc==1.0.4',
         'capstone>=3.0.4',
         'keystone-engine',
         'parse',

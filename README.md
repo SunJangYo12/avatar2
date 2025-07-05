@@ -11,12 +11,11 @@ $ virtualenv -p $(which python2) py2
 $ source py2/bin/activate
 $ pip2 install pip-tools
 $ pip-compile requirements.in
+$ pip2 install -r requirements.txt
 ```
 then result requirements.txt, we modifed in unicorn==1.0.2rc1
 with `pip2 install unicorn==1.0.2rc1` next:
 ```
-$ pip2 install -r requirements.txt
-$ pip2 install angr==7.7.9.8.post1
 $ pip2 install .
 ```
 
