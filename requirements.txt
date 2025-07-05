@@ -9,7 +9,7 @@ ana==0.5
     #   angr
     #   claripy
     #   cooldict
-angr==7.7.9.8.post1
+angr==7.7.9.21
     # via -r requirements.in
 archinfo==7.8.9.26
     # via
@@ -58,7 +58,7 @@ importlib-resources==3.3.1
     # via unicorn
 mulpyplexer==0.9
     # via angr
-networkx==2.2
+networkx==1.11
     # via angr
 pathlib2==2.3.7.post1
     # via importlib-resources
